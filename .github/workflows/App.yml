@@ -13,8 +13,8 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "YOUR APP's NAME" #Must be unique in Heroku
-          heroku_email: "YOUR EMAIL"
+          heroku_app_name: "devopsappesilv" #Must be unique in Heroku
+          heroku_email: "axel.guedj@edu.devnci.fr"
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
